@@ -7,5 +7,8 @@ public class Game {
 		this.gameOn = b;
 	}
 	
+	public boolean getGameStatus() {
+		return this.gameOn;
+	}
 	
 }
